@@ -2,8 +2,8 @@ import streamlit as st
 
 PAGES = {
     "home": {"path": "app.py", "label": "🏠 首页"},
-    "valuation": {"path": "pages/app_streamlit.py", "label": "📈 估值工具"},
-    "peer": {"path": "pages/peer-analysis.py", "label": "🧭 同行分析"},
+    "valuation": {"path": "app_streamlit.py", "label": "📈 估值工具"},
+    "peer": {"path": "peer-analysis.py", "label": "🧭 同行分析"},
 }
 
 def render_top_nav(current: str | None = None):
